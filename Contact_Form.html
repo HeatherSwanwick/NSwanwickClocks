@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width">
+<title>Contact Me</title>
+<link href="Stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="grid-container">
+  <header>
+      <a href = "index.html">
+	  <img src = "icon2.png" alt = "Logo">
+	  </a>
+	  
+	  <h1>Contact Me</h1>
+	  
+	  <div id="clockContainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+	  
+	  
+	  
+	  
+	  
+  </header>
+
+	 <nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li> |
+		  <li><a href="gallery.html">Gallery</a></li> |
+		  <li><a href="Contact_Form.html">Contact Me</a></li> 
+		</ul>
+	  </nav>
+
+
+
+  <div class = "left">
+	<div>
+	  Email: nigel@gmail.com <br>
+	  <br>
+	  Phone: 01 2898176
+	</div>
+	 
+	<div>
+		<a href = "https://instagram.com/nigelswanwick?igshid=OGQ5ZDc2ODk2ZA==">
+		  <img src = "Instagram.png" alt = "Instagram icon" >
+		</a>
+		<a href = "https://www.facebook.com/nigel.swanwick/">
+		  <img src = "Facebook.png" alt = "Facebook icon" >
+		</a>
+		<a href = "https://x.com/HeatherSwanwick?t=u0mDyrZ6R-4KW51H9Z76TA&s=09">
+		  <img src = "Twitter.png" alt = "Twitter icon" >
+		</a> 
+	</div>
+		
+	  
+	  
+  </div>
+
+  <section>
+  
+    <form onsubmit="return validateForm()" action = "mailto:d23124760@mytudublin.ie" method = "POST">
+	If you would like to make an enquiry about having your clock or watch repaired please fill in the contact form below:<br>
+	<br>
+		<fieldset>
+			<legend> Personal Details </legend><br>
+				First Name:<br>
+				<input type="text" id="name" name="name"><br>
+				<br>
+				Last Name:<br>
+				<input type="text" id="surname" name="surname"><br>
+				<br>
+				<label for="phone">Mobile Number:</label><br>
+				<input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br>
+				<br>
+				Email:<br>
+				<input type="email" id="email" name="email"><br>
+				<br>
+				Enquiry:<br>
+				<textarea name="message" rows="5" cols="40"></textarea>
+				<br>
+				<br>
+				
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend> Would you like to join our mailing list? </legend>
+			<br>
+			<input type="radio" id="newsletter1" name="newsletter" value="Yes">
+			<label for="newsletter"> Yes, sign me up!</label>
+			<input type="radio" id="newsletter2" name="newsletter" value="No">
+			<label for="newsletter"> No </label><br>
+			<br>
+		</fieldset>
+		<br>
+		<input type="submit" value="Submit" class = "button">
+		<input type="reset" value="Reset" class = "button">
+		
+		
+	
+	</form>
+	
+	
+  </section>
+  
+  
+  
+  <div class="right">
+        
+  </div>
+
+
+ <footer>
+	<div>
+	  Email: nigel@gmail.com <br>
+	  <br>
+	  Phone: 01 2898176
+	</div>
+    <div>
+		<a href = "https://instagram.com/nigelswanwick?igshid=OGQ5ZDc2ODk2ZA==">
+		  <img src = "Instagram.png" alt = "Instagram icon" >
+		</a>
+		<a href = "https://www.facebook.com/nigel.swanwick/">
+		  <img src = "Facebook.png" alt = "Facebook icon" >
+		</a>
+		<a href = "https://x.com/HeatherSwanwick?t=u0mDyrZ6R-4KW51H9Z76TA&s=09">
+		  <img src = "Twitter.png" alt = "Twitter icon" >
+		</a>
+	</div>
+
+  </footer>
+
+</div>
+
+
+</div>
+<script src = "JavaScript.js"> </script>
+
+
+
+</body>
+
+
+
+</html>
