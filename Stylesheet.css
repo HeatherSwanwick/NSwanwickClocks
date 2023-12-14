@@ -213,7 +213,7 @@ footer img{max-width:30px;
   
   
     .left{grid-column:1/span 2; 
-		  grid-row:3; 
+		  grid-row:3/ span 2; 
 		  display: flex; 
 		  justify-content:center; 
 		  align-content: flex-end; 
